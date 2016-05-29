@@ -4,9 +4,9 @@ import React, {
   View
 } from 'react-native'
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
-    alignItems: 'center',
+    alignItems: 'center'
   },
   bigText: {
     flex: 2,

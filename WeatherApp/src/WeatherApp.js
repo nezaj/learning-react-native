@@ -83,10 +83,9 @@ export default class WeatherApp extends Component {
   }
 }
 
+const baseFontSize = 16
 
-var baseFontSize = 16
-
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
@@ -119,7 +118,7 @@ var styles = StyleSheet.create({
   },
   zipCode: {
     width: 50,
-    height: baseFontSize,
+    height: baseFontSize
   },
   mainText: {
     flex: 1,
